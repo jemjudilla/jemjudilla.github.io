@@ -1,0 +1,161 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke</title>
+  <meta name="sales page" content="sales page for The Mountain Spoke website">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">
+  <!-- large/wide/desktop views --> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+ 
+    activePanel = $("#accordion div.panel:first");
+    $(activePanel).addClass('active');
+ 
+    $("#accordion").delegate('.panel', 'click', function(e){
+         if( ! $(this).is('.active') ){
+			$(activePanel).animate({width: "44px"}, 300);
+			$(this).animate({width: "80%"}, 300);
+			$('#accordion .panel').removeClass('active');
+			$(this).addClass('active');
+			activePanel = this;
+		 };
+    });
+});
+    </script>
+    </head> 
+<body>
+
+   <header class="clearfix">
+ 
+    <h1>The Mountain Spoke</h1>
+    
+  </header>
+ 
+  <!-- site navigation use placeholder references -->
+  <nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="tours.html">Adventure Tours</a></li>
+    	<li><a href="event.html">Events</a></li>
+    	<li class="active"><a href="#active">Sales</a></li>
+    	<li><a href="service.html">Service</a></li>
+    	<li><a href="contact.html">Contact</a></li>
+    </ul>		
+  </nav>
+    
+ <main>
+      <figure>
+      <img src="images/mainlarge.jpg" alt="Main Page Image" 
+           srcset="images/mainsmall.jpg 500w, 
+                   images/mainmedium.jpg 800w, 
+                   images/mainlarge.jpg 1100w">
+    </figure>
+   
+   <div>
+       <section>
+          <br><br>
+           <h2>We have here our bikes for sale!</h2>
+           <p> Contact us for more info.</p>
+           
+       
+       </section>
+     
+     </div>   
+     <br><br>
+<div id="contain">
+<div id="accordion">
+    <div class="panel">
+      <div class="pink"></div>
+          
+          <div><img src="images/bike1.jpg" alt="TourImage"><h4>GMC Denali Road Bike</h4>	
+      <p>Specifications:<br>
+          21-speed road bike features a lightweight aluminum frame<br>
+Alloy calipers and alloy brake levers<br>
+High-profile alloy Vitesse racing rims<br>
+Shimano derailleur and Shimano Revo shifts makes it easy to change gears quickly and smoothly<br>
+High-performance 700c tires are up to the challenge of rigorous street racing
+              </p>
+    </div>
+    </div>
+    
+    <div class="panel">
+      <div class="pink dark1"></div>
+         <div><img src="images/bike2.jpg" alt="Events Image"><h4>24" Roadmaster Granite Peak Boys Mountain Bike</h4>
+       <p>Specifications:<br>
+           28-speed road bike features a lightweight aluminum frame<br>
+Alloy calipers and alloy brake levers<br>
+High-profile alloy Vitesse racing rims<br>
+Shimano derailleur and Shimano Revo shifts makes it easy to change gears quickly and smoothly<br>
+High-performance 700c tires are up to the challenge of rigorous street racing
+        </p>
+        </div>
+    </div>
+       
+    <div class="panel">
+      <div class="pink dark2"></div>
+         <div><img src="images/bike3.jpg" alt="Sales Image"><h4>Northwoods Pomona Women's Dual Suspension Comfort Bike</h4>
+        <p>Specifications: <br>
+            26" Steel 36 Spoke Wheels with Custom-Design Cruiser Tires<br>
+Aluminum Frame , Will fit riders from 5.3 feet to 6 feet<br>
+Ergo Fit Steel Handlebar with Twist Shifters<br>
+Comfortable Cruiser Seat, full cover chain guard<br>
+Shimano Rear Derailleur<br>
+        </p>
+        </div>
+    </div>
+         
+    
+    <div class="panel">
+      <div class="pink dark3"></div>
+         <div><img src="images/bike4.jpg" alt="Sales Image"><h4>Schwinn Ladies Perla 7 Speed Cruiser Bicycle 26" Wheels</h4>
+        <p>Specifications: <br>
+            New Schwinn steel ladies cruiser frame and fork feature a comfortable riding position<br>
+Schwinn 7 speed twist shifters with Schwinn rear derailleur for quick shifts<br>
+Alloy V brakes for sure stops<br>
+Schwinn quality padded spring seat softens the ride<br>
+Full fenders provide convenient riding in all weather<br>
+        </p>
+        </div>
+    </div>
+      
+    </div> 
+         </div>
+   
+    </main>
+		
+      
+  
+ 
+    
+  <footer class="clearfix">
+    <aside>
+      <p> The Mountain Spoke</p>
+      <p> 3950 Valley Commons Drive</p>
+        <p> Bozeman, MT</p>
+        <p> (208) 294.3952 </p>
+        <p> customer@themountainspoke.com</p>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+  </footer>
+
+ 
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+    <script src ="jquery.min.js"></script>
+  
+  
+  
+
+</body>
+</html>

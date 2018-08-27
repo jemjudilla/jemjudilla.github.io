@@ -1,0 +1,95 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke</title>
+  <meta name="events page" content="Events page for The Mountain Spoke website">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">
+  <!-- large/wide/desktop views --> 
+</head> 
+<body>
+
+   <header class="clearfix">
+ 
+    <h1>The Mountain Spoke</h1>
+    
+  </header>
+ 
+  <!-- site navigation use placeholder references -->
+  <nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="tours.html">Adventure Tours</a></li>
+    	<li class="active"><a href="#active">Events</a></li>
+    	<li><a href="sales.html">Sales</a></li>
+    	<li><a href="service.html">Service</a></li>
+    	<li><a href="contact.html">Contact</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+      
+<div id="content" class="clearfix">
+     <br>
+      <h3>Contact us here</h3>
+    
+    <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">United States</option>
+      <option value="canada">Philippines</option>
+      <option value="usa">Peru</option>
+    </select>
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+        
+</div>
+    <div class = "">
+    <br>
+    <br>
+    
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9314410405686!2d-111.092911549377!3d45.67227662745422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718%2C+USA!5e0!3m2!1sen!2sph!4v1523681896550" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+      </div>
+      </div>
+      
+    </main>
+    
+  <footer>
+    <aside>
+      <p> The Mountain Spoke</p>
+      <p> 3950 Valley Commons Drive</p>
+        <p> Bozeman, MT</p>
+        <p> (208) 294.3952 </p>
+        <p> customer@themountainspoke.com</p>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "price":
+ [
+{
+    "name": "Gear/brake tuning",
+    "serviceprice": "$2"
+},
+{
+    "name": "Gear/brake tuning",
+    "servicePrice": "$15"
+},
+{
+    "name": "Tube replacement",
+    "servicePrice": "$10"
+},
+{
+    "name": "Tyre replacement",
+    "servicePrice": "$25"
+}
+]
+}
+
+ 
