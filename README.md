@@ -1,2 +1,2 @@
-# TheMountainSpoke
-Term Website Project
+# jemjudilla.com
+Personal Portfolio
