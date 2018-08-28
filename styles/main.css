@@ -99,6 +99,11 @@ h3 {
 picture {
     float: right;
 }
+.quote {
+  
+    font-family: "Tangerine", serif;
+ 
+}
 .current {
     font-size: 20px;
     width: 40%;
@@ -178,6 +183,7 @@ article {
     text-align: center;
     color: white;
     font-size: 20px;
+    
     
 }
 
