@@ -187,7 +187,21 @@ section ul {
     font-size: 14px;
 }
 
+main div form {
+    display: inline-block;
+    margin: 0;
+}
 
+.donate {
+    font-size: 10px;
+     text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+    
+    
+}
 
 main figure { margin: 0 0 0 0 }
 main figure img { width: 100%;}
@@ -410,10 +424,12 @@ footer aside p {
     color: black;
    
     
-    
+ 
 
    
 } /* This structure refers to p elements that are direct children of the footer element */
+
+
 
 footer p.footer-bar {
     font-size: 9px;
