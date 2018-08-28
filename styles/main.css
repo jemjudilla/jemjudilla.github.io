@@ -127,7 +127,10 @@ picture {
     margin-bottom: 5%;
     font-size: 13px;
   
+  
     
+
+
 }
 
 .grid img {
@@ -154,7 +157,7 @@ article {
     
 }
 .gridsolo img {
-    width: 30%
+    width: 30%  0955 173 0241
 }
 
 
@@ -166,6 +169,23 @@ article {
     margin-right: 5%;
     margin-bottom: 5%;
     font-size: 13px;
+    
+}
+
+
+.gridcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
