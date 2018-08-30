@@ -6,14 +6,15 @@ nav button {
     }  /* hamburger button does not need to be shown */
 
 nav {
-    background-color: #585858;
+    background-color: #2B3856;
 
 }
  
 nav ul {
     overflow: hidden;    
-    background-color: #585858;
-    margin-left: 2%; 
+    background-color: #2B3856;
+    margin-left: 2%;
+
     
 }
 
@@ -25,6 +26,7 @@ nav ul li {
 nav ul li a {
     border: none;
     padding: 0.8rem 1rem;
+    color: white;
 }
   
      

@@ -41,8 +41,9 @@ nav button {
     float: right;
     background-color: transparent;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color:darkblue;
+   
    
     
    
@@ -57,7 +58,7 @@ nav {
 }
 
 nav ul { 
-    background-color: #585858;
+    background-color: white;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -68,12 +69,13 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     border-top:1px solid rgba(0,0,0,0.3);
+    border-bottom:1px solid rgba(0,0,0,0.3);
     
 }
-nav ul li.active a {background-color: #E8E8E8; color: black}
-nav ul li a:hover {background-color: #C8C8C8; color: black}
+nav ul li.active a {background-color: whitesmoke; color: black}
+nav ul li a:hover {background-color: #99A6AF; color: white}
 
 nav ul.hide {display: none;}
 
@@ -184,6 +186,7 @@ article {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 30px;
     
     
 }
