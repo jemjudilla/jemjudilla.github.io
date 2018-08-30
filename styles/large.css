@@ -15,13 +15,11 @@
     margin-bottom: 5%;
 }  
 
-    .grid div:hover {
+    .gridcontainer img:hover {
         box-shadow: 5px 5px 10px gray;
     }
 
-    .quote {
-        font-size: 25px;
-    }
+   
 
 
 }
