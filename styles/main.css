@@ -62,11 +62,12 @@ header figure img {
 }
 nav button {
     float: right;
-    background-color: transparent;
+    background-color: whitesmoke;
     border: none;
     font-size: 1.8rem;
     color:darkgray;
-    margin-top: 3.5px;
+    margin-top: 4px;
+    margin-right: 0px;
 
    
    
