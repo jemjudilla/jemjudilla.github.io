@@ -51,10 +51,10 @@ header figure img {
     margin-bottom: 0;
     }
 
-section p {
+.quote {
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 14px;
+  font-size: 17px;
    
   
 }
