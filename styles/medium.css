@@ -60,7 +60,9 @@ header figure img {
 }
 
   
- 
+ .centered {
+        font-size: 25px; 
+    }
 
     
 footer  {

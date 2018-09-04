@@ -27,6 +27,10 @@
    
   
 }
+    
+    .centered {
+        fon-size: 50px;
+    }
 
 footer  {
     position: relative;
