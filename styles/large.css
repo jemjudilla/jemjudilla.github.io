@@ -19,7 +19,7 @@
         box-shadow: 5px 5px 10px gray;
     }
 
-  
+     
 .quote {
   margin-left: 5%;
   margin-right: 5%;
@@ -28,9 +28,20 @@
   
 }
     
+    .gridvideo {
+        display: grid;
+    grid-template-columns: 1fr;
+   width: 60%;
+        margin-left: 20%;
+        
+    }
+   
+    
     .centered {
         font-size: 25px;
     }
+    
+
 
 footer  {
     position: relative;

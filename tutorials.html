@@ -4,10 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Mountain Spoke</title>
-  <meta name="events page" content="Events page for The Mountain Spoke website">
+    <title>Jem's Website</title>
+  <meta name="home page" content="home page for Jem Judilla's personal website and portfolio">
   <!-- external style references in the proper cascading order -->    
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+   
+    <!-- Google API font reference -->
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
@@ -15,81 +18,75 @@
   <!-- large/wide/desktop views --> 
 </head> 
 <body>
+   
 
    <header class="clearfix">
  
-    <h1>The Mountain Spoke</h1>
+    <figure>
+      <img src="images/Welcome L.jpg" alt="Main Page Image" 
+           srcset="images/WelcomeL.jpg 500w, 
+                   images/WelcomeL.jpg 800w, 
+                   images/WelcomeL.jpg 1100w">
+    </figure>  
+   
     
   </header>
  
   <!-- site navigation use placeholder references -->
-  <nav class="clearfix">
+  <nav class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
-    <ul id="primaryNav" class="hide">
-    	<li><a href="index.html">Home</a></li>
-    	<li><a href="tours.html">Adventure Tours</a></li>
-    	<li class="active"><a href="#active">Events</a></li>
-    	<li><a href="sales.html">Sales</a></li>
-    	<li><a href="service.html">Service</a></li>
+     <ul id="primaryNav" class="hide">
+    	<li ><a href="index.html">Home</a></li>
+    	<li ><a href="calc.html">Calculators</a></li>
+    	<li class="active"><a href="#active">Tutorials</a></li>
+    	<li><a href="music.html">Music</a></li>
+    	<li><a href="travel.html">Travels</a></li>
     	<li><a href="contact.html">Contact</a></li>
-    </ul>		
+    </ul>	
   </nav>
     
  <main>
-      <figure>
-      <img src="images/mainlarge.jpg" alt="Main Page Image" 
-           srcset="images/mainsmall.jpg 500w, 
-                   images/mainmedium.jpg 800w, 
-                   images/mainlarge.jpg 1100w">
-    </figure>
    
-   <div>
-       <section>
+   <section>
+   
+
+    
           <br><br>
-           <h3>Join our event: "Cycle the Continental Divide"</h3>
-           <p>Dates: May 24-25 <br>
-              Route: Franklin City to Summerville <br>
-              Costs: $50 <br>
-               Basic Requirements: Medical Certicate and Safety Gears
-            
-           </p>
+           <div class="quote"><p>This page is still under construction... See you soon!!!<p></div>
+          
            
        
-       </section>
+     </section>
      
-     </div>   
+    
+     <br><br>
+     <div class="grid">
+          
+         <div class="gridcontainer"><a href ="calc.html"><img src="images/calculators.jpg" alt="Caculator Image"></a>
+              <div class="centered">Calculators</div></div>
+              
+         <div class="gridcontainer"><a href ="tutorials.html"><img src="images/tutorials.jpg" alt="Book Image"></a><div class="centered">Tutorials</div></div>
+       
+         <div class="gridcontainer"><a href ="music.html"><img src="images/music.jpg" alt="Music Image"></a><div class="centered">Music</div></div>
+             
+             <div class="gridcontainer"><a href ="travel.html"><img src="images/travel.jpg" alt="Beach Image"></a><div class="centered">Travel</div></div>
+         
+     </div>
+     
+     <div class="donate">
+         <p>If this site has been of great help to you, even a donation of $1 would be greatly appreciated. Also, feel free to suggest contents I can add that would benefit more people like you. Thanks! </p></div>
+     
     <div>
      
-         
-    <div id="content" class="clearfix">
-   
-     
-    
-    
-<form>
-<fieldset>
-    <legend><span>Please Tell Us About Yourself</span></legend>
-    <label><span>Full Name:</span><input name="fullname" type="text" value="" pattern="[a-zA-Z ]{5,99}" required ></label>
-    <label><span>Email:</span><input name="email" type="email" value="" placeholder="youremail@email.com"></label>
-    <label><span>Phone Number:</span><input name="phonenumber" type="tel" value="" required ></label>
-    <label><span>Date of birth:</span><input name="birthdate" type="date" value=""></label>
-   <label><span>Home State or Country:</span><input name="fullname" type="text" value="" pattern="[a-zA-Z ]{5,99}" required ></label>
-</fieldset>
-    
-<fieldset>
-    <label><span>Additional information or comments:</span>
-    </label>
-        <textarea rows="7" cols="50" name="comment" form="usrform"></textarea><br>
-    
-      
-</fieldset> 
-   <input type="submit" value="Register" class="subtmitBtn">
-   
-    
+         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-      </div>  	  
-    
     </div>
+     
     </main>
 		
       
@@ -98,13 +95,15 @@
     
   <footer class="clearfix">
     <aside>
-      <p> The Mountain Spoke</p>
-      <p> 3950 Valley Commons Drive</p>
-        <p> Bozeman, MT</p>
-        <p> (208) 294.3952 </p>
-        <p> customer@themountainspoke.com</p>
+      <p>My Name is Jem</p>
+        <p>Welcome to My Personal Website</p>
+        <p> Email: jemjudilla@hotmail.com</p>
+          
     </aside>
-    <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+    <p class="footer-bar">&copy;2018 | Today is <span id="currentdate"></span> | Created by Jem Judilla</p> 
+  
+     
+     
   </footer>
 
  
