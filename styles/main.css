@@ -20,11 +20,14 @@ header {
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 0;
+     border-bottom:2px solid rgba(0,0,0,0.3);
+    
 
 }
 
 header figure img {
     width: 100%;
+    margin-top: 20px;
 }
 
 
@@ -34,15 +37,35 @@ header figure img {
 
 //-------------------------nav----------------------------------
 
+
+
 .wrapbutton {
     overflow: hidden;
+}
+
+.navbar {
+    overflow: hidden;
+    z-index:1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    
+}
+
+.navbar:after {
+    content: "";
+    display: table;
+    clear: both;
+    
 }
 nav button {
     float: right;
     background-color: transparent;
-    border: none;
+   
     font-size: 1.8rem;
     color:darkblue;
+    margin-top: 3.45px;
    
    
     
@@ -81,7 +104,11 @@ nav ul.hide {display: none;}
 
 //----------------------------main------------------------------
 
+.content {
+    position: relative;
+    
 
+}
 
 .forecast {
     display: none;
@@ -128,25 +155,23 @@ picture {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     margin-left: 2%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    font-size: 13px;
-  
-  
-    
-
-
-}
+     margin-right: 5%;
+    margin-bottom: 0;
+    }
 
 .grid img {
-    width: 96%
+    width: 80%
+       
+  
 }
+
 
 .gridcontainer img:hover {
         box-shadow: 5px 5px 10px gray;
+    
     }
 article {
     background-color: azure;
@@ -154,21 +179,8 @@ article {
     padding-bottom: 2%;
 }
 
-  
-    
 
 
-
-.three {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin-left: 2%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    font-size: 13px;
-    
-}
 
 
 .gridcontainer {
@@ -177,6 +189,9 @@ article {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 10%;
+    
+    
     
     
 }
@@ -196,7 +211,7 @@ article {
 section p {
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 14px;
+  font-size: 12px;
    
   
 }
@@ -215,11 +230,12 @@ main div form {
 }
 
 .donate {
-    font-size: 10px;
+    font-size: 12px;
      text-align: center;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 0;
    
     
     
@@ -227,6 +243,12 @@ main div form {
 
 main figure { margin: 0 0 0 0 }
 main figure img { width: 100%;}
+
+main {
+    background-color: #F0F8FF;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+}
 
 //---------------------------------------formcss----------------------------
 
@@ -277,65 +299,7 @@ input {
 }
 
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;  
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-}
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #585858;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #686868;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.pana-accordion {
-  width: 800px;
-  height: 200px;
-  margin: 20px auto;
-  position: relative;
-  overflow: hidden
-}
-.pana-accordion .pana-accordion-wrap {
-  margin-left: -1px;
-  position: relative;
-  width: 300%
-}
-.pana-accordion .pana-accordion-wrap .pana-accordion-item {
-  border-left: 1px solid #BABABA;
-  width: 100px;
-  height: 200px;
-  overflow: hidden;
-  float: left;
-  position: absolute;
-  left: 0;
-  top: 0
-}
 //--------------------------------slider-------------------------------
 
 #contain {
@@ -427,7 +391,7 @@ footer  {
     right: 0;
     bottom: 0;
     left: 0;
-    padding-top: 9px;
+  
     text-align: center;
     
     
@@ -435,17 +399,21 @@ footer  {
 }
 footer aside {
    clear: both;
-   margin-top: 10%;
+   margin-top:0;
+    background-color: #E8E8E8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
     
 }
 footer aside p {
     margin:0;
-    font-size: 11px;
-    background-color: #E8E8E8;
-    padding: 2px;
+    font-size: 10px;
+   
+  
     color: black;
    
-    
+
  
 
    
