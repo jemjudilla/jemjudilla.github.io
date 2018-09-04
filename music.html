@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html lang="en-us">
 <head>
@@ -10,7 +9,7 @@
   <!-- external style references in the proper cascading order -->    
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="https://fonts.google.com/?selection.family=Great+Vibes">
+   
     <!-- Google API font reference -->
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
@@ -23,107 +22,59 @@
 
    <header class="clearfix">
  
-   <figure>
+    <figure>
       <img src="images/Welcome L.jpg" alt="Main Page Image" 
            srcset="images/WelcomeL.jpg 500w, 
                    images/WelcomeL.jpg 800w, 
                    images/WelcomeL.jpg 1100w">
-    </figure>
+    </figure>  
+   
     
   </header>
  
   <!-- site navigation use placeholder references -->
-  <nav class="clearfix">
+  <nav class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
     	<li ><a href="index.html">Home</a></li>
     	<li ><a href="calc.html">Calculators</a></li>
     	<li><a href="tutorials.html">Tutorials</a></li>
-    	<li class="active"><a href="#active">Art and Music</a></li>
-    	<li><a href="travel.html">Travel</a></li>
+    	<li class="active"><a href="#active">Music</a></li>
+    	<li><a href="travel.html">Travels</a></li>
     	<li><a href="contact.html">Contact</a></li>
     </ul>	
   </nav>
     
  <main>
-      
    
-   <div>
-       <section>
-          <br><br>
-           <h2>We have here our bikes for sale!</h2>
-           <p> Contact us for more info.</p>
-           
-       
-       </section>
-     
-     </div>   
-     <br><br>
-<div id="contain">
-<div id="accordion">
-    <div class="panel">
-      <div class="pink"></div>
-          
-          <div><img src="images/bike1.jpg" alt="TourImage"><h4>GMC Denali Road Bike</h4>	
-      <p>Specifications:<br>
-          21-speed road bike features a lightweight aluminum frame<br>
-Alloy calipers and alloy brake levers<br>
-High-profile alloy Vitesse racing rims<br>
-Shimano derailleur and Shimano Revo shifts makes it easy to change gears quickly and smoothly<br>
-High-performance 700c tires are up to the challenge of rigorous street racing
-              </p>
-    </div>
-    </div>
-    
-    <div class="panel">
-      <div class="pink dark1"></div>
-         <div><img src="images/bike2.jpg" alt="Events Image"><h4>24" Roadmaster Granite Peak Boys Mountain Bike</h4>
-       <p>Specifications:<br>
-           28-speed road bike features a lightweight aluminum frame<br>
-Alloy calipers and alloy brake levers<br>
-High-profile alloy Vitesse racing rims<br>
-Shimano derailleur and Shimano Revo shifts makes it easy to change gears quickly and smoothly<br>
-High-performance 700c tires are up to the challenge of rigorous street racing
-        </p>
-        </div>
-    </div>
-       
-    <div class="panel">
-      <div class="pink dark2"></div>
-         <div><img src="images/bike3.jpg" alt="Sales Image"><h4>Northwoods Pomona Women's Dual Suspension Comfort Bike</h4>
-        <p>Specifications: <br>
-            26" Steel 36 Spoke Wheels with Custom-Design Cruiser Tires<br>
-Aluminum Frame , Will fit riders from 5.3 feet to 6 feet<br>
-Ergo Fit Steel Handlebar with Twist Shifters<br>
-Comfortable Cruiser Seat, full cover chain guard<br>
-Shimano Rear Derailleur<br>
-        </p>
-        </div>
-    </div>
-         
-    
-    <div class="panel">
-      <div class="pink dark3"></div>
-         <div><img src="images/bike4.jpg" alt="Sales Image"><h4>Schwinn Ladies Perla 7 Speed Cruiser Bicycle 26" Wheels</h4>
-        <p>Specifications: <br>
-            New Schwinn steel ladies cruiser frame and fork feature a comfortable riding position<br>
-Schwinn 7 speed twist shifters with Schwinn rear derailleur for quick shifts<br>
-Alloy V brakes for sure stops<br>
-Schwinn quality padded spring seat softens the ride<br>
-Full fenders provide convenient riding in all weather<br>
-        </p>
-        </div>
-    </div>
-      
-    </div> 
-         </div>
+   <section>
    
 
-		
-      
-  
- <div class="donate">
-         <p>If this site has been of great help to you, even a donation of $1 would be greatly appreciated. Also, feel free to suggest contents that I can add more to this site that would benefit many more people like you. Thanks! </p></div>
+    
+          <br><br>
+           <div class="quote"><p>"This page contains some of my music compositions. If you want to see some music lessons or tutorials, you can go to tutorials page. Thanks!"<p></div>
+          
+           
+       
+     </section>
+     
+    
+     <br><br>
+     <div class="grid">
+          
+         <div class="gridcontainer"><a href ="calc.html"><img src="images/calculators.jpg" alt="Caculator Image"></a>
+              <div class="centered">Calculators</div></div>
+              
+         <div class="gridcontainer"><a href ="tutorials.html"><img src="images/tutorials.jpg" alt="Book Image"></a><div class="centered">Tutorials</div></div>
+       
+         <div class="gridcontainer"><a href ="music.html"><img src="images/music.jpg" alt="Music Image"></a><div class="centered">Music</div></div>
+             
+             <div class="gridcontainer"><a href ="travel.html"><img src="images/travel.jpg" alt="Beach Image"></a><div class="centered">Travel</div></div>
+         
+     </div>
+     
+     <div class="donate">
+         <p>If this site has been of great help to you, even a donation of $1 would be greatly appreciated. Also, feel free to suggest contents I can add that would benefit more people like you. Thanks! </p></div>
      
     <div>
      
@@ -154,14 +105,10 @@ Full fenders provide convenient riding in all weather<br>
      
      
   </footer>
-    
-  
 
  
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
-    <script src ="jquery.min.js"></script>
-  
   
   
 
