@@ -7,7 +7,7 @@
  var n = parseFloat(document.getElementById('pperyearinput').value);
   var npayments = n*y;
  var message = computePayment(p, r, y, n);
-document.getElementById('paymentMonthly').value = '$'+message;
+document.getElementById('paymentMonthly').value = message;
    
 }
 function computePayment(principal, annualRate, years, periodsPerYear) {
@@ -15,6 +15,7 @@ function computePayment(principal, annualRate, years, periodsPerYear) {
  var r = annualRate/periodsPerYear;
  var n = years*periodsPerYear;
  var payment = (a*r)/(1-(Math.pow((1+r),-n)));
+    payment = parseFloat(payment).toFixed(2);
  return payment;
  
 }
@@ -28,7 +29,7 @@ function doBalance() {
  
  
  var message = computeBalance(a, r, y,period,n);
- document.getElementById('balance').innerHTML = "$" + message;
+ document.getElementById('balance').value = message;
 
 
 
