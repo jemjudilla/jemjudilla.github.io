@@ -19,7 +19,7 @@ function computePayment(principal, annualRate, years, periodsPerYear) {
  return payment;
  
 }
-
+,.gr m
 function doBalance() {
  var a = parseFloat(document.getElementById('principalinput').value);
  var r = parseFloat(document.getElementById('rateinput').value);
