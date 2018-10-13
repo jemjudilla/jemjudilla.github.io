@@ -10,16 +10,17 @@
 document.getElementById('paymentMonthly').value = message;
    
 }
+
 function computePayment(principal, annualRate, years, periodsPerYear) {
  var a = principal;
  var r = annualRate/periodsPerYear;
  var n = years*periodsPerYear;
  var payment = (a*r)/(1-(Math.pow((1+r),-n)));
     payment = parseFloat(payment).toFixed(2);
- return payment;
- 
+ return payment; 
 }
-,.gr m
+
+
 function doBalance() {
  var a = parseFloat(document.getElementById('principalinput').value);
  var r = parseFloat(document.getElementById('rateinput').value);
