@@ -4,6 +4,7 @@
 
 body {
   font-size: 16px;
+    
   /* Declare the base font-family - from google font api or other */
     
 }
@@ -27,7 +28,7 @@ header {
 
 header figure img {
     width: 100%;
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 
@@ -49,8 +50,8 @@ header figure img {
     position: fixed;
     top: 0;
     width: 100%;
-   
-  
+ 
+    box-shadow: 5px 5px 5px gray;
     
 }
 
@@ -61,8 +62,9 @@ nav button {
     border: none;
     font-size: 1.8rem;
     color: lightgray;
-    margin-top: 4px;
+    margin-top: 0px;
     margin-right: 0px;
+    padding: 15px 15px 15px 0px;
 
    
    
@@ -92,7 +94,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: 1.2rem 2%;
     text-decoration: none;
     color: black;
     border-top:1px solid rgba(0,0,0,0.3);
@@ -111,6 +113,8 @@ nav ul.hide {display: none;}
     
 
 }
+
+
 
 .forecast {
     display: none;
@@ -270,9 +274,10 @@ main figure { margin: 0 0 0 0 }
 main figure img { width: 100%;}
 
 main {
-    background-color: #F0F8FF;
+    background-color: aliceblue ;
     padding-bottom: 2%;
     margin-bottom: 0;
+    padding-top: 3%;
 }
 
 //---------------------------------------formcss----------------------------
@@ -351,10 +356,11 @@ footer  {
 footer aside {
    clear: both;
    margin-top:0;
-    background-color: #E8E8E8;
+   background-color: lightgray;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+     box-shadow: 10px 5px 5px 5px gray;
+   
     
 }
 footer aside p {
@@ -362,7 +368,7 @@ footer aside p {
     font-size: 10px;
    
   
-    color: black;
+    color: #222c44;
    
 
  
@@ -375,7 +381,7 @@ footer aside p {
 footer p.footer-bar {
     font-size: 9px;
     text-align: center;
-    background-color: #585858;
+ background-color: #222C44;
     color: white;
     padding: 9px;
     margin: 0;
@@ -425,3 +431,27 @@ input[type=submit]:hover {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.center {
+    text-align: center;
+}
+
+/* loan calculator */
+
+.calcform {
+        width: 80%;
+        margin-left: 10%;
+        background-color: #F2F4F4;
+        border: 3px solid #f1f1f1;
+        padding-left: 5%;
+        padding-right: 5%;
+    box-shadow: 0px 5px 5px gray;
+        
+    }
+
+.whitebackground {
+    background-color: white;
+}
+
+
+

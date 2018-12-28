@@ -22,13 +22,12 @@
 
    <header class="clearfix">
  
-    <figure>
+     <figure>
       <img src="images/Welcome L.jpg" alt="Main Page Image" 
            srcset="images/WelcomeL.jpg 500w, 
                    images/WelcomeL.jpg 800w, 
                    images/WelcomeL.jpg 1100w">
     </figure>  
-   
     
   </header>
  
@@ -45,37 +44,33 @@
     </ul>	
   </nav>
     
- <main>
+ <main class="whitebackground">
    
    
-
-    
-          <section>
-   
-
-    
-          <br><br>
-           <div><h1>Loan Calculator</h1><br><br></div>
-          
-           
-       
-     </section>
           
            
      
-<form>
+<form class="calcform">
+     <div><h1 class="center">Loan Calculator</h1><br><br></div>
 Amount borrowed (principal) <input type="text" id="principalinput" size="5"><br>
 Annual interest rate (example: 0.065) <input type="text" id="rateinput" size="5"><br>
 Number of years <input type="text" id="nofyearsinput" size="5"><br>
 Number of payments per year <input type="text" id="pperyearinput" size="5"><br>
 <br>
 
-<button type="button" onclick="doPayment()">Compute Payment</button> 
+<button type="button" onclick="doPayment()">Compute Each Payment Amount</button> 
 <div class="output"><input type= 'text' id='paymentMonthly' size='10' readonly></div><br>
     
     Number of payments paid to date <input type="text" id="paidtodate" size="5"><br><br>
 
-    <button type="button" onclick="doBalance()">Compute Payoff amount</button><div class="output"><input type='text'  id='balance' size='10' readonly></div> <br><br>
+    <button type="button" onclick="doBalance()">Compute Remaining Balance</button>
+    
+    <div class="output">
+        <input type='text'  id='balance' size='10' readonly></div>
+    
+     
+    
+    <br><br>
 
 </form>
     

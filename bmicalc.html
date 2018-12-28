@@ -22,13 +22,9 @@
 
    <header class="clearfix">
  
-    <figure>
-      <img src="images/Welcome L.jpg" alt="Main Page Image" 
-           srcset="images/WelcomeL.jpg 500w, 
-                   images/WelcomeL.jpg 800w, 
-                   images/WelcomeL.jpg 1100w">
+     <figure>
+      <img src="images/WelcomeL.jpg" alt="Main Page Image">
     </figure>  
-   
     
   </header>
  
@@ -37,7 +33,7 @@
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
     	<li ><a href="index.html">Home</a></li>
-    	<li class="active"><a href="#active">Calculators</a></li>
+    	<li class="active"><a href="calc.html">Calculators</a></li>
     	<li><a href="tutorials.html">Tutorials</a></li>
     	<li><a href="music.html">Music</a></li>
     	<li><a href="travel.html">Travels</a></li>
@@ -45,33 +41,41 @@
     </ul>	
   </nav>
     
- <main>
+ <main class="whitebackground">
    
-   <section>
    
-
-    
-          <br><br>
-           <div class="quote"><p>This page is still under construction... See you soon!!!<p></div>
           
            
-       
-     </section>
+     
+<form class="calcform">
+     <div><h1 class="center">BMI Calculator</h1><br><br></div>
+Amount borrowed (principal) <input type="text" id="principalinput" size="5"><br>
+Annual interest rate (example: 0.065) <input type="text" id="rateinput" size="5"><br>
+Number of years <input type="text" id="nofyearsinput" size="5"><br>
+Number of payments per year <input type="text" id="pperyearinput" size="5"><br>
+<br>
+
+<button type="button" onclick="doPayment()">Compute Each Payment Amount</button> 
+<div class="output"><input type= 'text' id='paymentMonthly' size='10' readonly></div><br>
+    
+    Number of payments paid to date <input type="text" id="paidtodate" size="5"><br><br>
+
+    <button type="button" onclick="doBalance()">Compute Remaining Balance</button>
+    
+    <div class="output">
+        <input type='text'  id='balance' size='10' readonly></div>
+    
      
     
-     <br><br>
-     <div class="grid">
-          
-         <div class="gridcontainer"><a href ="loancalc.html"><img src="images/calculators.jpg" alt="Caculator Image"></a>
-              <div class="centered">Loan Calculator</div></div>
-              
-         <div class="gridcontainer"><a href ="bmicalc.html"><img src="images/bmicalc.jpeg" alt="Exercise Image"></a><div class="centered">BMI Calculator</div></div>
+    <br><br>
+
+</form>
+    
        
-         <div class="gridcontainer"><a href ="music.html"><img src="images/music.jpg" alt="Music Image"></a><div class="centered">Music</div></div>
-             
-             <div class="gridcontainer"><a href ="travel.html"><img src="images/travel.jpg" alt="Beach Image"></a><div class="centered">Travel</div></div>
-         
-     </div>
+  
+     
+    
+     
      
      <div class="donate">
          <p>If this site has been of great help to you, even a donation of $1 would be greatly appreciated. Also, feel free to suggest contents I can add that would benefit more people like you. Thanks! </p></div>
@@ -109,6 +113,8 @@
  
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+    <script src="scripts/loancalc.js"></script>
+    
   
   
 

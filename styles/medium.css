@@ -2,32 +2,41 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
   
    
-    nav button { 
+nav button { 
       display:none; 
     }  /* hamburger button does not need to be shown */
 
 nav {
-    background-color: #2B3856;
+    background-color: rgba(43, 56, 86 , 0.8);
+    box-shadow: 5px 5px 10px gray;
 
 }
  
 nav ul {
     overflow: hidden;    
-    background-color: #2B3856;
+    background-color: rgba(43, 56, 86 , 0.8);
     margin-left: 2%;
+   
+  
 
     
 }
 
 nav ul li {
     float: left;
+ 
    
 }
   
 nav ul li a {
     border: none;
-    padding: 0.8rem 1rem;
+    padding: 1.5rem 1rem;
     color: white;
+  
+   
+    
+    
+
 }
   
      
@@ -39,7 +48,7 @@ nav ul.hide {
 
 header figure img {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .grid {
@@ -96,11 +105,21 @@ footer  {
  footer aside {
    clear: both;
     
-     background-color: 
+   
    margin-top: 0;
      font-size: 10px;
     
 }
+    
+    .calcform {
+        width: 50%;
+        margin-left: 25%;
+        background-color: #F2F4F4;
+        border: 3px solid #f1f1f1;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
 
 
 

@@ -2,7 +2,9 @@
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here
 */
     
-    nav ul li a {padding: 0.8rem 1rem;}
+nav ul li a {
+    padding: 1.5rem 1rem;
+}
   
   
 
@@ -53,3 +55,14 @@ footer  {
     text-align: center;
    
 }
+    
+    .calcform {
+        width: 40%;
+        margin-left: 30%;
+        background-color: #F2F4F4;
+        border: 3px solid #f1f1f1;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+

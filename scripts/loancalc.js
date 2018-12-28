@@ -28,9 +28,14 @@ function doBalance() {
  var n = parseFloat(document.getElementById('paidtodate').value);
  var y = parseFloat(document.getElementById('nofyearsinput').value);
  
+
+ 
  
  var message = computeBalance(a, r, y,period,n);
+ 
  document.getElementById('balance').value = message;
+
+    
 
 
 
@@ -46,7 +51,9 @@ function computeBalance(principal, annualRate, years, periodsPerYear, numberOfPa
  var amount = balance.toFixed(2);
  return amount;
 }
-	
+    
+    
+
  
 
 }
