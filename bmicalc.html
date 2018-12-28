@@ -46,30 +46,23 @@
    
           
            
+<div class="bmicalc">
+     <h1 class="center">BMI Calculator</h1><br><br>
+     <div class="tabContainer">
+    <div class="buttonContainer">
+        <button onclick="showPanel(0,'#E5E8E8')">English Measurement</button>
+        <button onclick="showPanel(1,'#E5E8E8')">Metric Measurement</button>
      
-<form class="calcform">
-     <div><h1 class="center">BMI Calculator</h1><br><br></div>
-Amount borrowed (principal) <input type="text" id="principalinput" size="5"><br>
-Annual interest rate (example: 0.065) <input type="text" id="rateinput" size="5"><br>
-Number of years <input type="text" id="nofyearsinput" size="5"><br>
-Number of payments per year <input type="text" id="pperyearinput" size="5"><br>
-<br>
-
-<button type="button" onclick="doPayment()">Compute Each Payment Amount</button> 
-<div class="output"><input type= 'text' id='paymentMonthly' size='10' readonly></div><br>
-    
-    Number of payments paid to date <input type="text" id="paidtodate" size="5"><br><br>
-
-    <button type="button" onclick="doBalance()">Compute Remaining Balance</button>
-    
-    <div class="output">
-        <input type='text'  id='balance' size='10' readonly></div>
-    
+    </div>
+    <div class="tabPanel">Tab 1:Content</div>
+    <div class="tabPanel">Tab 2:Content</div>
+    <div class="tabPanel">Tab 3:Content</div>
+    <div class="tabPanel">Tab 4:Content</div>
+</div>
+     </div>
      
-    
-    <br><br>
 
-</form>
+
     
        
   
@@ -114,6 +107,7 @@ Number of payments per year <input type="text" id="pperyearinput" size="5"><br>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
     <script src="scripts/loancalc.js"></script>
+     <script src="scripts/tabs.js"></script>
     
   
   

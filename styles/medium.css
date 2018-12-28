@@ -9,6 +9,7 @@ nav button {
 nav {
     background-color: rgba(43, 56, 86 , 0.8);
     box-shadow: 5px 5px 10px gray;
+    transition: top 0.3s;
 
 }
  
@@ -111,7 +112,7 @@ footer  {
     
 }
     
-    .calcform {
+    .calcform, .bmicalc {
         width: 50%;
         margin-left: 25%;
         background-color: #F2F4F4;
