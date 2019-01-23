@@ -121,6 +121,14 @@ footer  {
         padding-right: 5%;
         
     }
+    
+    form.contactform {
+        width: 50%;
+    }
+    
+    form fieldset {
+        width: 100%;
+    }
 
 
 
