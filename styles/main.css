@@ -512,6 +512,141 @@ form fieldset {
     display: none;
 }
 
+/* Web ad css */
+
+.web-ad {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 5%;
+  
+    background-image: url(../images/bground.png);
+   background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+
+
+.web-ad h1 {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.web-ad h2 {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+.web-ad h3, .web-ad p, .web-ad li {
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+
+
+.left ul:nth-of-type(1){
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.bground {
+    display: flex;
+}
+
+.bground-left {
+    width: 60%;
+    padding-right: 5%;
+    
+}
+
+.bground-right img {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.bground-right {
+    width: 40%;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+.right .upper {
+    background-color: #2C3545;
+    color: white;
+    padding: 8% 12%;
+   
+    
+}
+
+.right .upper ul {
+    list-style-type: none;
+    padding-left: 0%;   
+   
+}
+
+.mapouter, .lower p {
+    text-align:center;
+    
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+  
+    
+}
+
+#gmap_canvas {
+    height: 300px;
+    border: none;
+}
+
+div.left, div.right {
+    margin-right: 7%;
+}
+
+.upper, .lower{
+    width: 80%;
+    margin-left: 10%;
+  
+    
+}
+
+
+#webadbutton {
+    border-radius: 20px;
+      padding: 10px 40px;
+    color: white;
+    background-color: #DD0A42;
+    border: none;
+   
+}
+
+#webadbutton:hover {
+    background-color: #F5698E; 
+    cursor: pointer;
+}
+
+
+
+ .upper h2 {
+        margin-top: 0%;
+    }
+
+
+
+
+    
+
+
+
 
 
 

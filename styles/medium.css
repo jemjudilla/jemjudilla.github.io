@@ -129,6 +129,42 @@ footer  {
     form fieldset {
         width: 100%;
     }
+    
+    /* web-ad css */
+    
+    .web-ad {
+  
+    display: flex;
+  
+}
+    
+    .web-ad .left {
+    width: 70%;
+    margin-right: 5%;
+       
+  
+}
+    
+    .web-ad .right {
+        margin-right: 5%;
+        width: 30%;
+    }
+    
+    .upper {
+        margin-top: 15px;
+       
+    }
+    
+    .lower p {
+        text-align: left;
+    }
+
+.upper, .lower {
+    width: 100%;
+    margin-left: 0%;
+   margin-right: 0%;  
+   
+}
 
 
 
