@@ -36,7 +36,7 @@ header figure img {
 
 
 
-//-------------------------nav----------------------------------
+
 
 
 
@@ -104,7 +104,7 @@ nav ul li a:hover {background-color: #99A6AF; color: white}
 
 nav ul.hide {display: none;}
 
-//----------------------------main------------------------------
+
 
 .content {
     position: relative;
@@ -121,7 +121,7 @@ nav ul.hide {display: none;}
     margin-left: 10%;
     margin-right: 10%;
 }
-}
+
 h1 {
     text-align: center;
  
@@ -176,10 +176,10 @@ picture {
 .gridvideo {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0% 5%;
 }
 
-.gridmusic {
-    margin: 2%;}
+
 
 .videocontainer {
     float: none;
@@ -278,7 +278,7 @@ main {
     padding-top: 3%;
 }
 
-//---------------------------------------formcss----------------------------
+
 
 
 label {
@@ -288,7 +288,7 @@ label {
 
 label span {
     display: block;
-    color: $917a56;
+    color: #917a56;
     padding-top: 0.5em;
     padding-bottom: 0.2em;
 }
@@ -326,7 +326,7 @@ form {
 
 input {
     display: inline-block;
-    margin-left; 10px;
+    
 }
 
 .output {
@@ -337,7 +337,6 @@ input {
  
 }
 
-//---------------------------------footer---------------------------------
 
 footer  {
 
@@ -385,7 +384,7 @@ footer p.footer-bar {
     margin: 0;
 }
 
-//------------clearfix-----------------------------------
+
 .clearfix:after {
     content: "";
     display: table;
@@ -554,9 +553,14 @@ span.bold {
     font-weight: bold;
 }
 
-.bground {
-    display: flex;
+.bground img {
+    float: right;
+    width: 45%;
+    padding-left: 2%;
+    padding-bottom: 2%;
 }
+
+
 
 .bground-left {
     width: 60%;
@@ -564,7 +568,7 @@ span.bold {
     
 }
 
-.bground-right img {
+.image-right img {
     width: 100%;
     padding-top: 15px;
 }
@@ -632,8 +636,14 @@ div.left, div.right {
 #webadbutton:hover {
     background-color: #F5698E; 
     cursor: pointer;
+   
 }
 
+.web-ad .participate {
+    padding-bottom: 0%;
+    line-height: 0em;
+    margin-top: 2em;
+}
 
 
  .upper h2 {
@@ -641,7 +651,9 @@ div.left, div.right {
     }
 
 
-
+.left-align {
+    text-align: left;
+}
 
     
 
